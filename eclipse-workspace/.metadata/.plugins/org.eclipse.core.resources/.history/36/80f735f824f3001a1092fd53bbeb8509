@@ -1,0 +1,11 @@
+package practice13_Q;
+
+public class Practice13_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Thread1 th1 = new Thread1();
+		th1.start();
+	}
+
+}

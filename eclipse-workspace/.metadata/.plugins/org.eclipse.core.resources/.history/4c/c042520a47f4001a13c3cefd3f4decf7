@@ -1,0 +1,16 @@
+package practice13_Q;
+
+import java.util.Vector;
+
+public class Practice13_8 {
+	Vector words = new Vector();
+	String[] data = { "태연", "유리", "윤아", "효연", "수영", "서현", "티파니", "써니", "제시카" };
+	int interval = 2 * 1000; // 2초
+	WordGenerator wg = new WordGenerator();
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

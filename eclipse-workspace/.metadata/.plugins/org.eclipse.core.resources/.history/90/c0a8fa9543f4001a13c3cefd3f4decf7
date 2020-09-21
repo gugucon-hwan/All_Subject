@@ -1,0 +1,27 @@
+package practice13_Q;
+
+public class Practice13_5 {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		Thread5 th1 = new Thread5();
+		th1.start();
+		try {
+		Thread.sleep(6*1000);
+		} catch(Exception e) {}
+		stopped = true; // 쓰레드를 정지시킨다. System.out.println("stopped");
+	}
+
+}
+
+class Thread4 extends Thread {
+	public void run() {
+		for (int i = 0; i < 10; i++) {
+			System.out.println(i);
+			try {
+				Thread.sleep(1000);
+			} catch (Exception e) {
+			}
+		}
+	} // run()
+}

@@ -1,0 +1,10 @@
+package practice14_Q;
+
+public class Practice14_4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] strArr= {"aaa","bb",
+	}
+
+}

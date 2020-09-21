@@ -1,0 +1,12 @@
+package practice3_Q;
+
+public class Exercise3_9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char ch = 'z';
+		boolean b = ( /* (1) */ );
+		System.out.println(b);
+	}
+
+}

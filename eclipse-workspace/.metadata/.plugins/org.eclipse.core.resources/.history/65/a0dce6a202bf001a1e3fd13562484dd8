@@ -1,0 +1,17 @@
+package practice5_Q;
+
+public class Practice5_8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] counter = new int[4];
+		for (int i = 0; i < answer.length; i++) {
+			/* (1) 알맞은 코드를 넣어 완성하시오. */ }
+		for (int i = 0; i < counter.length; i++) {
+			/*
+			 * (2) 알맞은 코드를 넣어 완성하시오.
+			 */
+			System.out.println();
+		}
+	}
+}

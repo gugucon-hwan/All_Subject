@@ -1,0 +1,13 @@
+package practice5_Q;
+/*Chapter 5-12 자바의 정석 개인 정답 */
+public class Practice5_12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] engCode= new String[] {"chair","computer","integer"};
+		String[] answerCode= new String[] {"의자","컴퓨터","정수"};
+		
+		
+		
+	}
+}
