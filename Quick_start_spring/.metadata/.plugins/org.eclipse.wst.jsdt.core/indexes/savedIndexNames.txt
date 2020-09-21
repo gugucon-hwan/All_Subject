@@ -1,0 +1,16 @@
+INDEX VERSION 1.4+D:\Quick_start_spring\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3285195898.index
+2877749236.index
+3478189224.index
+1985579192.index
+1985579192.index
+78313231.index
+4008603857.index
+3530667770.index
+3071887559.index
+3071887559.index
+3434124758.index
+1780586403.index
+3728165170.index
+2963150381.index
+1108539383.index

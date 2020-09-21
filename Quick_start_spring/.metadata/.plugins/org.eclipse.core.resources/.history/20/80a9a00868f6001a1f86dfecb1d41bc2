@@ -1,0 +1,8 @@
+package com.springbook.view.controller;
+
+public class HandlerMapping {
+	private Map<String, Controller> mappings;
+	
+	
+	
+}

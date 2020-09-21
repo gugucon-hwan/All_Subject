@@ -1,0 +1,14 @@
+package com.springbook.biz.board;
+
+import com.springbook.biz.board.impl.BoardDAO;
+
+public class BoardServiceClient {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BoardDAO boardDAO= new BoardDAO();
+		
+		
+	}
+
+}

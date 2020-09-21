@@ -1,0 +1,7 @@
+package com.springbook.view.board;
+
+import com.springbook.view.controller.Controller;
+
+public class DeleteBoardController implements Controller{
+	
+}

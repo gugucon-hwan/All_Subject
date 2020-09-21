@@ -1,0 +1,7 @@
+package com.springbook.view.user;
+
+import com.springbook.view.controller.Controller;
+
+public class LogoutController implements Controller{
+
+}

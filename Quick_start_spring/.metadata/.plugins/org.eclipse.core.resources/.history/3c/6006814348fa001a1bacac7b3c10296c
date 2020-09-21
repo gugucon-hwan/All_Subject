@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mapper namespace="BoardDAO">
+	<insert id="insertBoard">
+		insert into board(seq, title, writer, content)
+		values((select nvl(max(seq),0)+1 from board),#{title}, #{writer}, #{content})
+	</insert>	
+	<update id="updateBoard">
+		
+	</update>
+</mapper>

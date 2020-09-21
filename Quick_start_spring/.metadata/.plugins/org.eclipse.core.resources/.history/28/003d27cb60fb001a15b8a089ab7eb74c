@@ -1,0 +1,32 @@
+package com.springbook.biz.board;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+/**
+ * Entity implementation class for Entity: Board
+ *
+ */
+@Entity
+@Table(name="BOARD")
+public class Board implements Serializable {
+	@Id
+	@GeneratedValue	
+	private int seq;
+	private String title;
+	private String writer;
+	private String content;
+	@Temporal(TemporalType.DATE))
+	private int cnt;
+
+	public Board() {
+		super();
+	}
+   
+}

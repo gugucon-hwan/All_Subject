@@ -1,0 +1,17 @@
+package com.springbook.biz.board;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+public class BoardServiceClient {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// EntityManager 생성
+		EntityManagerFactory emf= Persistence.createEntityManagerFactory("JPAProject");
+		EntityManager em = emf.createEntityManager();
+		
+	}
+
+}

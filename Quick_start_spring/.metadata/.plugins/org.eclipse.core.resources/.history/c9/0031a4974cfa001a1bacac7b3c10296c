@@ -1,0 +1,9 @@
+package com.springbook.biz.board.impl;
+
+import org.apache.ibatis.session.SqlSession;
+
+public class BoardDAO {
+	private SqlSession mybatis;
+	
+	
+}
