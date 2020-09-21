@@ -1,0 +1,103 @@
+<%@page import="java.sql.Timestamp"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    
+   <%@ include  file="../../etc/color.jspf"  %>
+   
+   <%
+   		String menagerId="":;
+   
+   		try{
+   			managerId=(String)session.getAttribute("managerId");
+   			if(managerId==null||managerId.equals("")){
+   				response.sendRedirect("../logon/managerLoginForm.jsp");
+   			}else{   		
+   %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>상품등록</title>
+<link href="../../etc/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../../etc/script.js"></script>
+</head>
+<body bgcolor="<%=bodyback_c%>">
+
+	<p>책 등록</p>
+	<br>
+	<table>
+	<tr>
+		<td align="right" colspan="2" bgcolor="<%=value_c%>">
+			<a href="../managerMain.jsp">관리자 메인으로</a>
+		</td>	
+	</tr>
+	<tr>
+		<td width="100" bgcolor="<%=value_c %>">분류 선택</td>
+		<td width="400" align="left">
+				<select name="book_kind">
+					<option value="100">문학</option>
+					<option value="200">외국어</option>
+					<option value="300">컴퓨터</option>
+				</select>
+		</td>
+	</tr>
+	<tr>
+		<td width="100" bgcolor="<%=value_c %>">제목</td>
+		<td width="400" align="left">
+			<input type="text" size="50" maxlength="50" name="book_title">원
+		</td>
+	</tr>
+	<tr>
+		<td width="100" bgcolor="<%=value_c %>">가격</td>
+		<td width="400" align="left">
+			<input type="text" size="10" maxlength="9" name="book_price">원
+		</td>
+	</tr>
+	<tr>
+		<td width="100" bgcolor="<%=value_c %>">수량</td>
+		<td width="400" align="left">
+			<input type="text" size="10" maxlength="9" name="book_count">원
+		</td>
+	</tr>
+	<tr>
+		<td width="100" bgcolor="<%=value_c %>">저자</td>
+		<td width="400" align="left">
+			<input type="text" size="10" maxlength="9" name="author">원
+		</td>
+	</tr>
+	<tr>
+		<td width="100" bgcolor="<%=value_c %>">출판사</td>
+		<td width="400" align="left">
+			<input type="text" size="10" maxlength="9" name="publishing_com">원
+		</td>
+	</tr>
+	<tr>
+		<td width="100" bgcolor="<%=value_c %>">출판일</td>
+		<td width="400" align="left">
+			<select name="publishing_year">
+				<%
+					Timestamp nowTime=new Timestamp(System.currentTimeMillis());
+					int lastYear=Integer.parseInt(nowTime.toString().subString(0,4));
+					for(int i=lastYear;i>=2010;i--){					
+				%>
+					<option value="<%=i%>"><%=i %></option>
+				<%} %>				
+			</select>년
+			
+			<select name="publishing_mount">
+				<%
+					for(int i=1;i<=12;i++){
+				%>
+					<option value="<%=i%>"><%=i %></option>
+				<%} %>
+			</select>월
+		</td>
+		<select name="publishing_day">
+			<%
+				for(int i=1;i<=31;i++){			
+			%>
+				<option value="<%=i %>"><%=i %></option>
+		</select>
+	</table>
+</body>
+</html>

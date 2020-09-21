@@ -1,0 +1,8 @@
+127.0.0.1 - - [31/Aug/2020:12:39:06 +0900] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [31/Aug/2020:12:39:09 +0900] "GET /StudyBasicJSP/ch14shop/shoppping/shopMain.jsp HTTP/1.1" 200 263
+0:0:0:0:0:0:0:1 - - [31/Aug/2020:12:39:09 +0900] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [31/Aug/2020:12:43:58 +0900] "GET /StudyBasicJSP/ch14shop/shoppping/shopMain.jsp HTTP/1.1" 200 263
+0:0:0:0:0:0:0:1 - - [31/Aug/2020:12:51:16 +0900] "GET /StudyBasicJSP/ch14shop/shoppping/shopMain.jsp HTTP/1.1" 200 263
+127.0.0.1 - - [31/Aug/2020:12:52:17 +0900] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [31/Aug/2020:12:52:18 +0900] "GET /StudyBasicJSP/mysqlconn.sql HTTP/1.1" 200 4388
+0:0:0:0:0:0:0:1 - - [31/Aug/2020:12:54:02 +0900] "GET /StudyBasicJSP/ch14shop/shoppping/shopMain.jsp HTTP/1.1" 200 263

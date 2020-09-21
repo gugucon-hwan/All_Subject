@@ -1,0 +1,6 @@
+package ch14.bookshop.master;
+
+public class ShopBookDataBean {
+	private int book_id;//책의 등록번호
+	
+}

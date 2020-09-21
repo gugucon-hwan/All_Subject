@@ -1,0 +1,19 @@
+<%@page import="ch14.bookshop.master.ShopBookDBBean"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+    <%
+    	request.setCharacterEncoding("utf-8");
+    %>
+    <%
+    	String id=request.getParameter("id");
+    	String passwd=request.getParameter("passwd");
+    	
+    	ShopBookDBBean manager=ShopBookDBBean.getInstance();
+    	int check=manager.managerCheck(id, passwd);
+    	
+    	if(check==1){
+    		session.setAttribute("managerId", )
+    	}
+    
+    %>

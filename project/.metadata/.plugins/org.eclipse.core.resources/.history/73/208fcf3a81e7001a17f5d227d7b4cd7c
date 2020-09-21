@@ -1,0 +1,16 @@
+package ch14.bookshop.master;
+
+/**
+ * @author gugucon
+ *
+ */
+public class ShopBookDataBean {
+	private int book_id;//책의 등록번호
+	private String book_kind;//책의 분류
+	private String book_title;//책이름
+	private int book_price;//책가격
+	private short book_count;//책의 재고수량
+	private String author;//저자
+	private String publishing_com;//출판사
+	private 
+}
