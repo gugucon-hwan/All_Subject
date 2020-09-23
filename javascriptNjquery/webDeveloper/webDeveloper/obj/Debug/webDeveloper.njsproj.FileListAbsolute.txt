@@ -1,0 +1,3 @@
+D:\All_Subject\javascriptNjquery\webDeveloper\webDeveloper\obj\Debug\webDeveloper.njsprojAssemblyReference.cache
+D:\All_Subject\javascriptNjquery\webDeveloper\webDeveloper\obj\Debug\webDeveloper.njsproj.CoreCompileInputs.cache
+D:\All_Subject\javascriptNjquery\webDeveloper\webDeveloper\bin\Microsoft.NodejsTools.WebRole.dll
