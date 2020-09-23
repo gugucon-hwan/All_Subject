@@ -15,7 +15,7 @@ class LifeCycleSample extends Component {
 
   static getDerivedStateFromProps(nextPros, prevState) {
     console.log('getDerviedStateFromProps');
-    if (nextPros.color != prevState.color) {
+    if (nextPros.color !== prevState.color) {
       return { color: nextPros.color };
     }
     return null;
