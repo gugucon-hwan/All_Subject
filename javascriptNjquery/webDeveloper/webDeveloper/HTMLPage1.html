@@ -6,11 +6,19 @@
     <title>chapter1</title>
     <!--주석입니다.-->
     <script>
-        for (let i = 0; i < 3; i++) {
-            //1초(1000밀리 초)*i초 후에 i를 출력
-            setTimeout(() => {
-                alert(i);
-            }, 1000 * i);
+        var date = new Date();
+        var hour = date.getHours();
+
+        switch (true) {
+            case hour < 11:
+                alert('아침');
+                break;
+            case hour < 15:
+                alert('점심');
+                break;
+            default:
+                alert('저녁');
+                break;
         }
     </script>
 </head>
