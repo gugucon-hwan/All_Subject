@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function test(a, b, c, d) {
+            alert(`${a}:${b}:${c}:${d}`);
+        }
+
+        var array = [1, 2];
+        //앞에 다른 매개변수를 넣고 뒤를 배열로 채우기
+        test(273, 52, ...array);//273:52:1:2
+        //배열을 병합해서 매개변수로 전달
+        test(...array, ...array);//1:2:1:2
+    </script>
+</head>
+<body>
+
+</body>
+</html>

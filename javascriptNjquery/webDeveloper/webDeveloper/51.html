@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        //함수를 선언
+        function test(name) {
+            var output = 'Hello ' + name + ' .. ! ';
+            return function () {
+                alert(output);
+            };
+        }
+
+        //변수를 선언
+        var test_1 = test('Web');
+        var test_2 = test('JavaScript');
+
+        //함수를 호출
+        test_1();
+        test_2();
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
