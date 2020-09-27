@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=D\:\\Quick_Start_SpringBoot\\.git;
-GitRepositoriesView.GitDirectories.relative=.git;
+GitRepositoriesView.GitDirectories=D\:\\All_Subject\\.git;D\:\\All_Subject\\Quick_Start_SpringBoot\\.git;
+GitRepositoriesView.GitDirectories.relative=D\:\\All_Subject\\.git;.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
