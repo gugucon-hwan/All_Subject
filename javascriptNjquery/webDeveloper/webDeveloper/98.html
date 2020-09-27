@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        //학생 정보 배열을 만들자
+
+        //모든 students배열 안 객체에 메서드를 추가한다.
+        for (var i in students) {
+            //총점을 구하는 메서드를 추가한다.
+            students[i].getSum = function () {
+                return this.국어 + this.수학 + this.영어 + this.과학;
+            };
+            //평균을 구하는 메서드를 추가한다.
+            students[i].getAverage = function () {
+                return this.getSum()/4;
+            };
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

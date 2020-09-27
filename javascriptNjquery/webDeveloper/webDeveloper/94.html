@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        var student = {};
+
+        student.이름 = '윤인성';
+        student.취미 = '악기';
+        student.특기 = '프로그래밍';
+        student.장래희망 = '생명공학자';
+
+        //toString()메서드를 만든다.
+        student.toString = function () {
+            var output = '';
+            for (var key in this) {
+                //toString()메서드는 출력하지 않게 한다.
+                if (key != 'toString') {
+                    output += key + '\t' + this[key] + '\n';
+                }
+            }
+            return output;
+        };
+
+        alert(student.toString());
+    </script>
+</head>
+<body>
+
+</body>
+</html>
