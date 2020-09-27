@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function Person() { }
+
+        var joon = new Person();
+        var jisoo = new Person();
+
+        Person.prototype.getType = function () {
+            return "인간";
+        };
+
+        console.log(joon.getType());   // 인간
+        console.log(jisoo.getType());  // 인간
+    </script>
+</head>
+<body>
+
+</body>
+</html>

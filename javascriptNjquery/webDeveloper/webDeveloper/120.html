@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function Student(name, korean, math, english, science) {
+            this.이름 = name;
+            this.국어 = korean;
+            this.수학 = math;
+            this.영어 = english;
+            this.과학 = science;
+        }
+        var students = [];        
+        students.push(new Student('ㅎㅇㅎㅇ',92,91,12,22));
+        students.push(new Student('다다익선', 72, 41, 22, 42));
+
+        Student.prototype.getSum = function () {
+            return this.국어 + this.수학 + this.영어 + this.과학;
+        };
+        Student.prototype.getAverage = function () {
+            return this.국어 + this.수학 + this.영어 + this.과학 / students.length;
+        };
+        Student.prototype.toString = function () {
+            return this.이름 + ':' + this.국어 + ':' + this.수학 + ':' + this.영어 + ':' + this.과학;
+        };
+
+        alert(students[0].getSum());
+        alert(students[0].getAverage());
+        alert(students[0].toString());
+        //console.log(students[0].getSum);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
