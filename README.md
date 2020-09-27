@@ -1,6 +1,6 @@
 # 📦All_Subject 공부
 
-> 자바,JSP,Spring Boot,Spring Framework, Python, React, Vue, Oracle, java, Android, Node.js
+> JSP,Spring Boot,Spring Framework, Python, React, Vue, Oracle, java, Android, Node.js, jenkins
 
 
 ## 🥳문서 모음
@@ -29,6 +29,8 @@
 > 코드로 배우는 스프링 웹 프로젝트(저자 : 구멍가게 코딩단)
 
 > Node.js교과서(개정판2판) (저자 : 조현영)
+
+> 젠킨스 마스터 (저자 : 조나단 맥앨리스터, 옮긴이 : 이정표)
 
 ## 🏷저작권
 
