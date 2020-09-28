@@ -1,6 +1,6 @@
 # 📦All_Subject 공부
 
-> JSP,Spring Boot,Spring Framework, Python, React, Vue, Oracle, java, Android, Node.js, jenkins, Docker, Kubernetes
+> JSP,Spring Boot,Spring Framework, Python, React, Vue, Oracle, java, Android, Node.js, jenkins, Docker, Kubernetes, AWS web service
 
 
 ## 🥳문서 모음
@@ -33,6 +33,8 @@
 > 젠킨스 마스터 (저자 : 조나단 맥앨리스터, 옮긴이 : 이정표)
 
 > 시작하세요! 도커/쿠버네티스 (저자 : 용찬호)
+
+> 서비스 운영이 쉬워지는 aws 인프라 구축 가이드(저자 : 김담형)
 
 ## 🏷저작권
 
