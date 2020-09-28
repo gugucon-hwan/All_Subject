@@ -5,4 +5,15 @@
 <fullyQualifiedTypeName name="org.springframework.boot.WebApplicationType"/>
 <fullyQualifiedTypeName name="org.springframework.boot.Banner"/>
 <fullyQualifiedTypeName name="org.springframework.boot.Banner.Mode"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="com.rubypaper.controller.BoardController"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+<fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="com.rubypaper.domain.BoardVO"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="lombok.ToString"/>
 </qualifiedTypeNameHistroy>
