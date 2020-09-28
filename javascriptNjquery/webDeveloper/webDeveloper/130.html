@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        class Rectangle {
+            constructor(width, height) {
+                this._width = width;
+                this._height = height;
+            }
+
+            //width의 게터와 세터
+
+            get width() {
+                return this._width;
+            }
+            set width(input) {
+                this._width = input;
+            }
+
+            //height의 게터와 세터
+            get height() {
+                return this._height;
+            }
+
+            set height(input) {
+                this._height = input
+            }
+
+            getArea() {
+                return this._width * this._height;
+            }
+        }
+
+        class Square extends Rectangle {
+            constructor(length) {
+                super(length, length);
+                alert(this);
+            }
+            //width또는 height를 변경하면 둘 다 변겨오디게 다시 선언한다.
+            set width(input) {
+                this._width = input;
+                this._height = input;
+            }
+
+            set height(input) {
+                this._width = input;
+                this._height = input;
+            }
+        }
+
+        const square = new Square(100);
+        alert(square.getArea());
+    </script>
+</head>
+<body>
+
+</body>
+</html>

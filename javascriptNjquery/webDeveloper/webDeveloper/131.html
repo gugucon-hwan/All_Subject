@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function Product(weight) {
+            this.이름 = '돼지삼겹살';
+            this.무게 = weight;
+            this.가격 = 1690;   
+
+            this.setWeight = function (weight) {
+                this.무게 = weight;
+            }
+
+             this.setPrice = function (price) {
+                 this.가격 = price;                
+            }
+
+            this.getWeight = function () {
+                return this.무게;
+            }
+            this.getPrice = function () {
+                return this.가격;
+            }
+        }
+        Product.prototype.calculate = function () {
+            return this.getWeight()/100 * this.getPrice();
+        };
+
+        var product = new Product(200);
+
+        alert(product.calculate());
+        
+    </script>
+</head>
+<body>
+
+</body>
+</html>

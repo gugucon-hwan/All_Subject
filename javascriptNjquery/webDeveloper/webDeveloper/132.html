@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function number(num) {
+            this.num = num;
+        }
+        number.prototype.print = function () {
+            console.log(this.num);
+        };
+        
+        var num = new number(273);
+
+        num.print();
+
+        //number.print(273);
+        
+    </script>
+</head>
+<body>
+
+</body>
+</html>
