@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        //Date생성자 함수의 프로토타입에 메서드를 추가한다.
+        Date.prototype.getInterval = function (otherDate) {
+            var interval;
+            if (this > otherDate) {
+                interval = this.getTime()-otherDate.getTime();
+            } else {
+                interval = otherDate.getTime() - this.getTime();
+            }
+            return Math.floor(interval / (1000 * 60 * 60 * 24));
+        }
+
+        var now = new Date();
+        var before = new Date('December 9, 1991');
+
+        alert('Interval: ' + now.getInterval(before) + '일');
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

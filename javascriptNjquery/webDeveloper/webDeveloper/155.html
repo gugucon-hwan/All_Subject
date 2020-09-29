@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        Array.prototype.remove = function (index) { console.log(this.splice(index, 1)) };
+
+        var array = [52, 273, 103, 32, 274, 129];
+
+        for (var i = 0; i < array.length; i++) {
+            if (array[i] > 100) {
+                array.remove(i);
+            }
+        }
+        alert(array);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
