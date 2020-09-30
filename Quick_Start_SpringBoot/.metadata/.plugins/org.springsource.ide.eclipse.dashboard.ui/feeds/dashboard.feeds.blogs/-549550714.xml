@@ -5,7 +5,62 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2020-09-29T14:31:55Z</updated>
+  <updated>2020-09-29T23:01:49Z</updated>
+  <entry>
+    <title>This Week in Spring - September 29th, 2020</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/09/29/this-week-in-spring-september-29th-2020" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2020-09-29:4218</id>
+    <updated>2020-09-29T23:01:49Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another awesome week in Spring! Can you believe we&amp;rsquo;re staring down October, 2020 already? I can&amp;rsquo;t. Time sure flies&amp;hellip;. or something. There&amp;rsquo;s a lot to get to so let&amp;rsquo;s get to it.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/springcentral/status/1311003143359148032"&gt;Spring Cloud LoadBalancer replaces the Netflix Ribbon, provides a pluggable algorithm, reactive support, and extensible configuration.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/springcentral/status/1310656805991743488"&gt;Interested in knowing about the 10 Itemprocessors that out of the box Spring Batch has? Watch the full session here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/09/24/sentry-cto-david-cramer-on-automated-error-capture-and-analysis"&gt;Sentry CTO David Cramer on Automated Error Capture and Analysis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/09/29/spring-cloud-data-flow-2-7-0-m1-and-2-6-3-released"&gt;Spring Cloud Data Flow 2.7.0-M1 and 2.6.3 Released&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://programming.love/spring-is-a-season-of-programming-love-with-josh-long/"&gt;Spring is a season of Programming Love with Josh Long ? Programming Love&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blogs.vmware.com/opensource/2020/09/29/steven-rostedt-on-the-linux-kernels-hello-world/"&gt;Steven Rostedt on the Linux Kernel¡¯s ¡°Hello World¡±&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blog.jetbrains.com/kotlin/2020/09/the-dark-secrets-of-fast-compilation-for-kotlin/?mkt_tok=eyJpIjoiWVRnd1pqUmtZemsyTmpVNSIsInQiOiJqZFJ5Mkg4TWdUSlRwVmJoQTNRNnBjOVlnQlZhZjFKdzhTN3IyNWc1YjF4SGpYU0s1S2ZOT0h2TnhzMXNNdE9cL1ZVbXAzUEFYR09DR1ROU0pzb08yYmN4czBneEZIK3FkeU9uZ3h1TGE4UGpOZnlZb1BMWVZRMURnc256dmduMWcifQ%3D%3D"&gt;The Dark Secrets of Fast Compilation for Kotlin ? Kotlin Blog | JetBrains&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://twitter.com/snicoll/status/1308658297944395776?s=12"&gt;The Wavefront documentation has been updated with more information on Spring Boot&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Happy &lt;a href="https://www.youtube.com/embed/rRGdspXfUU0?start=4"&gt;25th Anniversary NYJavaSIG&lt;/a&gt;!&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blogs.vmware.com/vmworld/2020/09/a-customer-community-like-no-other-vmware-champions.html"&gt;A Customer Community Like No Other: VMware Champions&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://github.com/spring-projects-experimental/spring-graalvm-native/pull/287#issuecomment-697256664"&gt;Add Hints and example for Data Neo4j. by michael-simons ¡¤ Pull Request #287 ¡¤ spring-projects-experimental/spring-graalvm-native&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/09/29/case-study-remote-file-ingest-with-spring-cloud-data-flow"&gt;Case Study: Remote File Ingest with Spring Cloud Data Flow&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://blogs.vmware.com/vmworld/2020/09/destination-vmworld-vision-innovation-track.html"&gt;Destination VMworld ? Vision &amp;amp; Innovation Track&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://salaboy.com/2020/09/24/kubecon-spring-one-2020-from-monoliths-to-k8s/"&gt;KubeCon &amp;amp; Spring One 2020: From Monoliths to K8s ? Salaboy (Open Source Knowledge)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://appleinsider.com/articles/20/09/22/microsoft-contributes-to-java-port-for-apple-silicon-macs"&gt;Microsoft contributes to Java port for Apple silicon Macs | Appleinsider&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://inside.java/2020/09/25/new-candidate-jep391/"&gt;New candidate JEP: 391: macOS/AArch64 Port&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://inside.java/2020/09/25/new-candidate-jep392/"&gt;New candidate JEP: 392: Packaging Tool&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://inside.java/2020/09/29/new-candidate-jep393/"&gt;New candidate JEP: 393: Foreign-Memory Access API (3rd Incubator)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="https://inside.java/2020/09/24/venkat-subramaniam-interview/"&gt;Venkat Subramaniam: Java is changing in a responsible manner&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
+  <entry>
+    <title>Spring Cloud Data Flow 2.7.0-M1 and 2.6.3 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/09/29/spring-cloud-data-flow-2-7-0-m1-and-2-6-3-released" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Ilayaperumal Gopinathan</name>
+    </author>
+    <id>tag:spring.io,2020-09-29:4217</id>
+    <updated>2020-09-29T17:53:12Z</updated>
+    <content type="html">&lt;p&gt;Spring Cloud Data Flow team is pleased to announce the release of 2.7.0-M1 and 2.6.3&lt;/p&gt;
+&lt;p&gt;While the release 2.6.3 has &lt;a href="https://github.com/spring-cloud/spring-cloud-dataflow/releases/tag/v2.6.3"&gt;the bug fixes&lt;/a&gt;, the first milestone of 2.7.0 has the following enhancements:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SCDF dashboard re-design using VMware Clarity toolkit&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SCDF dashboard is re-designed using &lt;a href="https://clarity.design/"&gt;VMware Clarity design system&lt;/a&gt;. This is a complete rewrite of SCDF dashboard GUI to get the benefits of the Clarity design.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Spring Boot 2.3.2 Update&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;SCDF server components are now updated to use Spring Boot 2.3.2 release.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wavefront integration&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Spring Cloud Data Flow dashboards for streams, tasks and SCDF server components are available in VMware Wavefront dashboards for integrations. The configurations required to setup the wavefront integration are simplified at the SCDF as well. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Deprecation of Helm Hub Chart&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Helm charts for SCDF are now deprecated and moved into &lt;a href="https://github.com/bitnami/charts/tree/master/bitnami/spring-cloud-dataflow"&gt;Bitnami OSS charts&lt;/a&gt;&lt;/p&gt;&lt;h2&gt;&lt;a href="#stay-in-touch-hellip" class="anchor" name="stay-in-touch-hellip"&gt;&lt;/a&gt;Stay in touch&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;As always, we welcome feedback and contributions, so please reach out to us on &lt;a href="https://stackoverflow.com/questions/tagged/spring-cloud-dataflow"&gt;Stack Overflow&lt;/a&gt; or &lt;a href="https://github.com/spring-cloud/spring-cloud-dataflow/issues"&gt;GitHub&lt;/a&gt; or via &lt;a href="https://gitter.im/spring-cloud/spring-cloud-dataflow"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Case Study: Remote File Ingest with Spring Cloud Data Flow</title>
     <link rel="alternate" href="https://spring.io/blog/2020/09/29/case-study-remote-file-ingest-with-spring-cloud-data-flow" />
@@ -1031,65 +1086,6 @@ Artem&lt;/p&gt;
     <updated>2020-09-16T12:00:00Z</updated>
     <content type="html">&lt;p&gt;Hi, Spring fans! I was on the Microsoft Azure YouTube show &lt;em&gt;Azure in the Enterprise&lt;/em&gt; with Lyle Dodge where I did a quick demonstration introducing the Spring for Microsoft Azure support for the Microsoft Azure Object Storage Service. Check it out!&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/d4SfosPWz8s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - September 15th, 2020</title>
-    <link rel="alternate" href="https://spring.io/blog/2020/09/16/this-week-in-spring-september-15th-2020" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2020-09-16:4199</id>
-    <updated>2020-09-16T05:18:32Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! It&amp;rsquo;s been an absolutely nutty week! It&amp;rsquo;s &lt;em&gt;just&lt;/em&gt; Tuesday and I&amp;rsquo;m beat! &lt;/p&gt;
-&lt;p&gt;Over the weekend I completely refactored the pipeline I used for my just-published book &lt;a href="http://ReactiveSpring.io"&gt;&lt;em&gt;Reactive Spring&lt;/em&gt;&lt;/a&gt; (which, by the way, is now available on Leanpub and on Amazon as digital and paperback editions) and turned it into the turnkey Asciidoctor pipeline I&amp;rsquo;d always wanted but - since I was traveling 650,000 miles a year, speaking at hundreds of conferences or events yearly, writing a 450-page book, releasing weekly blogs, recording a weekly podcast, releasing an almost weekly screencast and, you know, being a member of a wonderful family - I just didn&amp;rsquo;t have the time to do. I&amp;rsquo;d managed to get a Spring Boot-ified Asciidoctor pipeline working. It worked. It produced &lt;code&gt;.epub&lt;/code&gt;, &lt;code&gt;.mobi&lt;/code&gt;, screen-ready &lt;code&gt;.PDF&lt;/code&gt;, prepress-ready &lt;code&gt;.PDF&lt;/code&gt;, and HTML versions on every &lt;code&gt;git push&lt;/code&gt;. But everything was serialized. It was &lt;em&gt;slow&lt;/em&gt;. And inflexible since I got the absolute basic flow working for my needs and nothing more. That all changed this weekend. I present to you &lt;code&gt;http://bootiful-asciidoctor.github.io&lt;/code&gt;. It&amp;rsquo;s all Apache2 licensed open-source. It&amp;rsquo;s a Spring Boot and Spring Batch pipeline. You can deploy the Spring Batch job to your favorite Ci environment and tell it which Git repositories contain your &lt;code&gt;.adoc&lt;/code&gt; files and which contain the code you need to be included. You tell it how you want your produced artifacts - Amazon S3 or checked into a Git repository&amp;rsquo;s branch - and it&amp;rsquo;ll emit those. It&amp;rsquo;s delivered as a Spring Boot autoconfiguration, too, so it publishes events and everything is overridable as &lt;code&gt;@Bean&lt;/code&gt; instances. I am hoping that if folks like it, they&amp;rsquo;ll feel the urge to write their own technical books, and perhaps even some on Spring :-) &lt;/p&gt;
-&lt;p&gt;What else? I recorded a few episodes of &lt;em&gt;A Bootiful Podcast&lt;/em&gt;. Fun. Always fun.&lt;/p&gt;
-&lt;p&gt;Oh! This morning I was on the Microsoft Learn TV conference introducing Azure Spring Cloud along with a bunch of awesome folks from Microsoft and all around the world. That was fun - look for those recordings to be available soon. &lt;/p&gt;
-&lt;p&gt;And I spent today pre-recording a talk - &lt;em&gt;Bootiful Kotliin&lt;/em&gt; - intended for the &lt;a href="http://j4k.io"&gt;J4k.io&lt;/a&gt; conference next month. It took literally 50m to record the talk, and 12h to finesse everything with Adobe Premiere and Adobe Auditon and Adobe InDesign, and Adobe Photoshop so that it worked as I hoped it would. What a journey! But it&amp;rsquo;s done. And a grateful GPU thanks me. &lt;/p&gt;
-&lt;p&gt;And of course, there&amp;rsquo;s the preparation for this amazing week that was. Just look at this list of good stuff! I don&amp;rsquo;t even know where to&amp;hellip; yes I do. That&amp;rsquo;s a fib. I totally know where to start. At the first entry! And the first entry of course is the interview I did with Spring legend and amazing human being Rossen Stoyanchev. He&amp;rsquo;s been an integral part of the Spring team for as long as I can remember and more. He&amp;rsquo;s everything I love about people and about Spring. A modest, patient, friendly genius. You know him - even if you don&amp;rsquo;t &lt;em&gt;know&lt;/em&gt; him - if you&amp;rsquo;ve ever used Spring to do any kind of web programming. Yep. He&amp;rsquo;s &lt;em&gt;that&lt;/em&gt; prolific. Trust me, you&amp;rsquo;re going to want to listen to that episode. It was one of those episodes where I went back for a re-listen! I was there the first time and I still feel like I missed stuff. &lt;/p&gt;
-&lt;p&gt;Anyway my friends, there is a ton of stuff to get to, so let&amp;rsquo;s get to it! &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/09/10/a-bootiful-podcast-legendary-spring-contributor-rossen-stoyanchev-on-all-things-web-reactive-and-rsocket"&gt;A Bootiful Podcast: Legendary Spring contributor Rossen Stoyanchev on all things web, reactive and RSocket&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://jdk.java.net/15/"&gt;Java 15 went GA today&lt;/a&gt;! This means that text blocks are officially a thing! They&amp;rsquo;re not hidden behind the preview-feature flags! Get the bits while they&amp;rsquo;re hot!&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://inside.java/2020/09/15/announcing-inside-java-podcast/"&gt;Announcing the Inside Java Podcast&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/09/14/azure-in-the-enterprise-azure-cosmos-db-and-spring-boot"&gt;Azure in the Enterprise: Azure Cosmos DB and Spring Boot&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/09/09/azure-in-the-enterprise-azure-service-bus-and-spring-boot"&gt;Azure in the Enterprise: Azure Service Bus and Spring Boot&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/09/10/case-study-relational-database-source-and-file-sink"&gt;Case Study: Relational Database Source and File Sink&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.youtube.com/watch?reload=9&amp;v=Y5dcDyeRlDQ&amp;feature=youtu.be"&gt;Deploy Friday: E09 Spring Framework - Java in focus - YouTube. Did I mention I was on the &amp;ldquo;Deploy Friday&amp;rdquo; show not too long ago? The video is up!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://blogs.vmware.com/opensource/2020/09/10/tuf-enhancing-software-update-security/"&gt;Enhancing Software Update Security With TUF (The Update Framework)&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://inside.java/2020/09/14/podcast-003/"&gt;Episode 3 ¡°The State of Java¡± with Georges Saab&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://inside.java/2020/09/10/elastic-metaspace-jep-proposed-to-target/"&gt;JEP proposed to target JDK 16: 387: Elastic Metaspace&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;I presented at my talk &lt;em&gt;Bootiful Testing&lt;/em&gt; for the &lt;a href="https://blog.jetbrains.com/idea/2020/09/jetbrains-technology-day-for-java-bootiful-testing/"&gt;JetBrains Technology Day for Java&lt;/a&gt; and Jetbrains did a nice recap blog on the talk.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.infoq.com/news/2020/09/azure-spring-cloud-ga/?itm_campaign=rightbar_v2&amp;itm_source=infoq&amp;itm_medium=news_link&amp;itm_content=link_text"&gt;Microsoft Announces the General Availability of Azure Spring Cloud&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/09/15/spring-framework-5-2-9-5-1-18-5-0-19-and-4-3-29-available-now"&gt;Spring Framework 5.2.9, 5.1.18, 5.0.19, and 4.3.29 available now&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/09/15/spring-framework-5-3-goes-rc1"&gt;Spring Framework 5.3 goes RC1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/09/10/spring-security-5-4-goes-ga"&gt;Spring Security 5.4 goes GA&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/09/15/spring-vault-2-3-m1-available"&gt;Spring Vault 2.3 M1 available&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=Um9djPTtPe0"&gt;The Path Towards Spring Boot Native Applications - YouTube&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://inside.java/2020/09/15/the-arrival-of-java-15/"&gt;The arrival of Java 15&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/making/status/1305869573548376070"&gt;Toshiaki Maki on Twitter: &amp;ldquo;&#x1f680; rsc 0.6.0 has been released &lt;a href="https://t.co/fww8PQ80ap"&gt;https://t.co/fww8PQ80ap&lt;/a&gt; &#x1f511; Authentication Extension is supported!! @RSocketIO @SpringSecurity &lt;a href="https://t.co/FugKJwAzhB"&gt;https://t.co/FugKJwAzhB&lt;/a&gt; Demo: &lt;a href="https://t.co/gTNpN39mu8"&gt;https://t.co/gTNpN39mu8&lt;/a&gt; Try: brew install making/tap/rsc&amp;rdquo; / Twitter&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2020/09/11/you-spoke-we-listened-state-of-spring-2020-report-is-here"&gt;You spoke, we listened: State of Spring 2020 report is here!&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Framework 5.3 goes RC1</title>
-    <link rel="alternate" href="https://spring.io/blog/2020/09/15/spring-framework-5-3-goes-rc1" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Juergen Hoeller</name>
-    </author>
-    <id>tag:spring.io,2020-09-15:4197</id>
-    <updated>2020-09-15T15:32:00Z</updated>
-    <content type="html">&lt;p&gt;Dear Spring community,&lt;/p&gt;
-&lt;p&gt;On behalf of the development team, it is my pleasure to announce that a feature-complete Spring Framework 5.3 release candidate is available from our &lt;a href="https://repo.spring.io/milestone/org/springframework/spring-framework-bom/5.3.0-RC1/"&gt;milestone repository&lt;/a&gt; now! Check out the list of &lt;a href="https://github.com/spring-projects/spring-framework/wiki/What%27s-New-in-Spring-Framework-5.x#whats-new-in-version-53"&gt;new features&lt;/a&gt; and &lt;a href="https://github.com/spring-projects/spring-framework/wiki/Upgrading-to-Spring-Framework-5.x#upgrading-to-version-53"&gt;upgrade notes&lt;/a&gt; on our GitHub wiki, including several deprecation notes.&lt;/p&gt;
-&lt;p&gt;As the last feature branch of the 5.x generation, we are preparing the 5.3.x line for general availability in late October - with an extended maintenance phase up until 2024. While we strongly encourage appropriate migration steps, all of our deprecated packages are going to remain in place for the entire 5.3.x phase. In terms of Java platform support, the current range is JDK 8-15 but we expect this to grow into JDK 8-17 for our Spring Framework 5.3.x releases next year.&lt;/p&gt;
-&lt;p&gt;Spring supports Java 14/15 records and similar record-style classes now, as a refined variant of constructor-based binding. Spring&amp;rsquo;s core container includes refinements for &lt;a href="https://github.com/spring-projects-experimental/spring-graalvm-native"&gt;native application deployment&lt;/a&gt; and performance optimizations in terms of data structures and concurrent access.&lt;/p&gt;
-&lt;p&gt;This release brings a new &lt;code&gt;spring-r2dbc&lt;/code&gt; module with core &lt;a href="https://r2dbc.io/"&gt;R2DBC&lt;/a&gt; support, including a reactive &lt;code&gt;R2dbcTransactionManager&lt;/code&gt; as well as a reactive &lt;code&gt;DatabaseClient&lt;/code&gt;. Its sister module &lt;code&gt;spring-jdbc&lt;/code&gt; features a new &lt;code&gt;JdbcTransactionManager&lt;/code&gt; (with extended data access exception translation), as well as a &lt;code&gt;DataClassRowMapper&lt;/code&gt; with constructor-based result binding support (covering Java records) and new &lt;code&gt;queryForStream&lt;/code&gt; methods (for lazy result iteration) on our good old &lt;code&gt;JdbcTemplate&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;In the web framework, we provide a JSON option with &lt;a href="https://github.com/Kotlin/kotlinx.serialization"&gt;Kotlin multiplatform serialization&lt;/a&gt; now. &lt;code&gt;WebTestClient&lt;/code&gt; allows for performing requests against MockMvc, as a single test client API for mock versus live tests. WebFlux comes with a fully reactive message reader for multipart requests.&lt;/p&gt;
-&lt;p&gt;Please give Spring Framework 5.3 RC1 a try, e.g. as part of the upcoming Spring Boot 2.4 M3 release which will be available on &lt;a href="https://start.spring.io/"&gt;start.spring.io&lt;/a&gt; soon, and let us know about any regressions etc.&lt;/p&gt;
-&lt;p&gt;Cheers,&lt;br/&gt;Juergen&lt;/p&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

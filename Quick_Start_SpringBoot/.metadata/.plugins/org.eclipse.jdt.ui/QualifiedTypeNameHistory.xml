@@ -17,6 +17,18 @@
 <fullyQualifiedTypeName name="lombok.ToString"/>
 <fullyQualifiedTypeName name="org.springframework.boot.SpringBootConfiguration"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
-<fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.EnableAutoConfiguration"/>
 <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="org.springframework.boot.ApplicationArguments"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="org.springframework.boot.ApplicationRunner"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="com.rubypaper.jdbc.util.JDBCConnectionManager"/>
+<fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean"/>
+<fullyQualifiedTypeName name="org.springframework.boot.context.properties.ConfigurationProperties"/>
+<fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.EnableAutoConfiguration"/>
+<fullyQualifiedTypeName name="org.springframework.boot.context.properties.EnableConfigurationProperties"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.rubypaper.jdbc.config.JDBCConnectionManagerProperties"/>
 </qualifiedTypeNameHistroy>
