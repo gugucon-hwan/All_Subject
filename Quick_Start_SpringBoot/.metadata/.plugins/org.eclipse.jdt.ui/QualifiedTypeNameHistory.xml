@@ -9,11 +9,6 @@
 <fullyQualifiedTypeName name="com.rubypaper.controller.BoardController"/>
 <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.SpringBootApplication"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
-<fullyQualifiedTypeName name="com.rubypaper.domain.BoardVO"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="lombok.ToString"/>
 <fullyQualifiedTypeName name="org.springframework.boot.SpringBootConfiguration"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
@@ -21,7 +16,6 @@
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="java.sql.DriverManager"/>
 <fullyQualifiedTypeName name="org.springframework.boot.ApplicationArguments"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="org.springframework.boot.ApplicationRunner"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
 <fullyQualifiedTypeName name="com.rubypaper.jdbc.util.JDBCConnectionManager"/>
@@ -29,6 +23,20 @@
 <fullyQualifiedTypeName name="org.springframework.boot.context.properties.ConfigurationProperties"/>
 <fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.EnableAutoConfiguration"/>
 <fullyQualifiedTypeName name="org.springframework.boot.context.properties.EnableConfigurationProperties"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="com.rubypaper.jdbc.config.JDBCConnectionManagerProperties"/>
+<fullyQualifiedTypeName name="org.springframework.boot.test.web.client.TestRestTemplate"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+<fullyQualifiedTypeName name="org.junit.jupiter.api.DisplayName"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.springframework.boot.autoconfigure.AutoConfigureAfter"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.rubypaper.domain.BoardVO"/>
+<fullyQualifiedTypeName name="org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc"/>
+<fullyQualifiedTypeName name="org.springframework.test.web.servlet.MockMvc"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="com.rubypaper.service.BoardService"/>
 </qualifiedTypeNameHistroy>

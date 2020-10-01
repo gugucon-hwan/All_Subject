@@ -5,7 +5,20 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2020-09-29T23:01:49Z</updated>
+  <updated>2020-10-01T08:29:49Z</updated>
+  <entry>
+    <title>Premiering: Cloud Native Java, Redux</title>
+    <link rel="alternate" href="https://spring.io/blog/2020/10/01/premiering-cloud-native-java-redux" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2020-10-01:4219</id>
+    <updated>2020-10-01T08:29:49Z</updated>
+    <content type="html">&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/M9GNcAzBk9g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;Join Spring developer advocate &lt;a href="http://twitter.com/starbuxman"&gt; Josh Long (@starbuxman) &lt;/a&gt; for a guided tour of a ton of the features, patterns, and principles in Spring Cloud and Spring Boot that support you when building production-optimized, cloud native Java applications&lt;/p&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>This Week in Spring - September 29th, 2020</title>
     <link rel="alternate" href="https://spring.io/blog/2020/09/29/this-week-in-spring-september-29th-2020" />
@@ -1073,19 +1086,6 @@ Artem&lt;/p&gt;
   &lt;li&gt;Spring Data Elasticsearch 3.1.20 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-elasticsearch/3.1.20.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/elasticsearch/docs/3.1.20.RELEASE/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/elasticsearch/docs/3.1.20.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/elasticsearch/docs/3.1.20.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Spring Data Couchbase 3.1.20 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-couchbase/3.1.20.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/couchbase/docs/3.1.20.RELEASE/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/couchbase/docs/3.1.20.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/couchbase/docs/3.1.20.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Azure in the Enterprise: Azure Object Storage Service and Spring Boot</title>
-    <link rel="alternate" href="https://spring.io/blog/2020/09/16/azure-in-the-enterprise-azure-object-storage-service-and-spring-boot" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2020-09-02:4188</id>
-    <updated>2020-09-16T12:00:00Z</updated>
-    <content type="html">&lt;p&gt;Hi, Spring fans! I was on the Microsoft Azure YouTube show &lt;em&gt;Azure in the Enterprise&lt;/em&gt; with Lyle Dodge where I did a quick demonstration introducing the Spring for Microsoft Azure support for the Microsoft Azure Object Storage Service. Check it out!&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/d4SfosPWz8s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

@@ -2,5 +2,6 @@
 <aop-reference-model>
 <aop-project name="board-spring-boot-starter"/>
 <aop-project name="Chapter2"/>
+<aop-project name="Chapter3"/>
 <aop-project name="Chapter01"/>
 </aop-reference-model>
