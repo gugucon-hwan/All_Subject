@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        var smartphones = ['iphone', 'ipod', 'android','windows'];
+
+        for (var i in smartphones) {
+            if (navigator.userAgent.toLowerCase().match(new RegExp(smartphones[i]))) {
+                alert('스마트폰 페이지로 이동한다.');
+                location = 'http://m.hanbit.co.kr';
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
