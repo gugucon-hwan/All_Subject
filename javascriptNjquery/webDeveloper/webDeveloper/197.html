@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        window.onload = function () {
+            //변수를 선언
+            var header = document.createElement('h1');
+            var textNode = document.createTextNode('Hello DOM');
+
+            //노드를 연결
+            header.appendChild(textNode);
+            document.body.append(header);
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
