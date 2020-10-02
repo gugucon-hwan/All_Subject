@@ -2,13 +2,17 @@ package com.rubypaper.domain;
 
 import java.util.Date;
 
+import org.springframework.stereotype.Repository;
+
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+
 @Getter
 @Setter
 @ToString
+@Repository
 public class BoardVO {
 	private int seq;
 	private String title;

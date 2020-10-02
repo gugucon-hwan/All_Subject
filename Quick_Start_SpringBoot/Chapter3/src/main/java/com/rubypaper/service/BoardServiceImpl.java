@@ -9,14 +9,15 @@ import org.springframework.stereotype.Service;
 
 import com.rubypaper.domain.BoardVO;
 
-@Service
-public class BoardServiceImpl {
+@Service("boardService")
+public class BoardServiceImpl implements BoardService{
+		
 	public String hello(String name) {
 		return "Hello : name";
 	}
 	
 	public BoardVO getBoard() {
-		BoardVO board= new BoardVO();
+		BoardVO board= new BoardVO();	
 		board.setSeq(1);
 		board.setTitle("테스트 제목 ...");
 		board.setWriter("테스터");
