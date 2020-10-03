@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        window.onload = function () {
+            //변수를 선언한다.            
+            var header = document.getElementById('header');
+
+            //이벤트를 연결한다.
+            header.onclick = function () {
+                alert('클릭');
+
+                //이벤트를 제거한다.
+                header.onclick = null;
+            };
+        };
+    </script>
+</head>
+<body>
+
+</body>
+</html>

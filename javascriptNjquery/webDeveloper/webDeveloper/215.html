@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        var date = new Date();
+        date.setDate(date.getDate() - 1);
+
+        var willCookie = '';
+        willCookie += 'CookieName=Value;';
+        willCookie += 'expires= ' + date.toUTCString();
+
+        document.cookie = willCookie;
+        alert(document.cookie);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

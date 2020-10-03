@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function setCookie(name, value, day) {
+            var date = new Date();
+            date.setDate(date.getDate() + day);
+
+            var willCookie = '';
+            willCookie += name + '=' + encodeURIComponent(value) + ';';
+            willCookie += 'expires=' + date.toUTCString() + '';
+
+            document.cookie = willCookie;
+        }
+
+        function getCookie(name) {
+            var cookies = document.cookie.split(';');
+
+            for (var i in cookies) {
+                if (cookies[i].search(name) != -1) {
+                    return decodeURIComponent(cookies[i].replace(name + '=', ''));
+                }
+            }               
+        }
+
+        function removeCookie(name) {
+            var date = new Date();
+            date.setDate(date.getDate() - 1);
+
+            var willCookie = '';
+            willCookie += name + '=remove;';
+            willCookie += 'expires=' + date.toUTCString();
+
+            document.cookie = willCookie;
+        }
+    </script>
+    <script>
+        removeCookie('Cookie');
+        alert(getCookie('Cookie'));
+        setCookie('Cookie', 'Cheese', 7);
+        alert(getCookie('Cookie'));
+        removeCookie('Cookie');
+    </script>
+</head>
+<body>
+
+</body>
+</html>

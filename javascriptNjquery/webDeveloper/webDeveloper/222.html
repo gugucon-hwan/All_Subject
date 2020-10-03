@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <script>
+        $(document).ready(function () {
+            //로컬 저장소의 내용을 출력한다.
+            function printLocalStorage() {
+                //div태그를 비운다.
+                $('div').empty();
+
+                //div태그에 로컬 저장소의 내용을 출력한다.
+                for (var key in localStorage) {
+                    $('<h1><h1>').html(key + ' : ' + localStorage[key]).appendTo('div');
+                }
+            }
+
+            //로컬저장소를 사용한다.
+            if (window.sessionStorage) {
+                printLocalStorage();
+                $('input:button').click(function () {
+                    var key = $('#key').val();
+                    var value = $('#value').val();
+
+                    //데이터를 추가합니다.
+                    localStorage.setItem(key, value);
+
+                    //데이터를 출력합니다.
+                    printLocalStorage();
+                });
+            } else {
+                alert('로컬 저장소를 사용할 수 없는 브라우저입니다.');
+            }
+        });
+    </script>
+</head>
+<body>
+    <input type="text" id="key" />
+    <input type="text" id="value" />
+    <input type="button" value="저장" />
+    <div id="output"></div>
+</body>
+</html>

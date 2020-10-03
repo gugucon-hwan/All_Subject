@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="http://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+    <script>
+        $(document).ready(function () {
+            //쿠키를 저장한다.
+            $.cookie('MyKey', '안녕', {
+                expires: 7,
+                path: '/',
+                raw: true
+            });
+            //출력한다
+            alert($.cookie('MyKey'));
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        *{border: 3px solid black;}
+    </style>
+    <script>
+    </script>
+</head>
+<body>
+    <div onclick="alert('outer-div')">
+        <div onclick="alert('inner-div')">
+            <h1 onclick="alert('header')">
+                <p onclick="alert('paragraph')">Paragraph</p>
+            </h1>
+        </div>
+    </div>
+</body>
+</html>
