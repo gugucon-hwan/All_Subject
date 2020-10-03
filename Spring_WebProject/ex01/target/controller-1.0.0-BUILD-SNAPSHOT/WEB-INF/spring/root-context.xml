@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:bean id="multipartResolver"
+	class="org.springframework.web.multipart.commons.CommonsMultipartResolver"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.3.xsd">
+ 	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	
+	<!-- 1024 * 1024 * 10 bytes 10MB -->
+	<beans:property name="defaultEncoding"	value="utf-8"></beans:property>
+
+	<!-- 1024 * 1024 * 2 bytes 2MB -->
+	<beans:property name="maxUploadSize" value="104857560"></beans:property>
+	
+	
+	<beans:property name="uploadTempDir" value="file:/C:/upload/tmp"></beans:property>
+	
+	<beans:property name="maxInMemorySize" value="10485756"></beans:property>
+
+</beans:bean>

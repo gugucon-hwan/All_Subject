@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function registerEventListener(node, event, listener) {
+            try {
+                node.addEventListener(event, listener, false);
+            } catch (exception) {
+                node.attachEvent('on' + event, listener);
+            }
+        }
+        window.onload = function () {
+            var header = document.getElementById('header');
+            registerEventListener(header, 'click', function () {
+                alert('Click');
+            });
+        };
+    </script>
+</head>
+<body>
+    <h1 id="header">Click</h1>
+</body>
+</html>
