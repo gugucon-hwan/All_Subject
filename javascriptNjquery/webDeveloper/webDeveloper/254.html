@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="http://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('input').on('click', function () {
+                $('p').text('선택됨');
+            });
+            
+        });
+    </script>
+</head>
+<body>
+    <input type="checkbox" name="a" /><p>선택안됨</p>
+</body>
+</html>

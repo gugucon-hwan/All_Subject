@@ -1,0 +1,20 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.28.3",
+  "hash": "eb88458750b24e3be23f",
+  "publicPath": "/",
+  "outputPath": "Users/velopert/stuff/books/개정판/21장/ssr-recipe/build",
+  "assetsByChunkName": {
+    "main": [
+      "static/css/main.e322b749.chunk.css",
+      "static/js/main.bc29bdfa.chunk.js",
+      "static/js/main.bc29bdfa.chunk.js.map"
+    ],
+    "pages-BluePage": [
+      "static/css/pages-BlugPage.dbb7ee75.chunk.css",
+      "static/js/pages-BluePage.fb6595f2.chunk.js",
+      "static/js/pages-BluePage.fb6595f2.chunk.js.map"
+    ]
+  }
+}

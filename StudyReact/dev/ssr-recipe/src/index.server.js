@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import ReactDOMServer from "react-dom/server";
 import express from "express";
 import { StaticRouter } from "react-router-dom";
@@ -12,6 +12,9 @@ import rootReducer,{rootSaga} from "./modules";
 import PreloadContext from "./lib/PreloadContext";
 import createSagaMiddleware from 'redux-saga';
 import {END} from 'redux-saga';
+import {ChunkExtractor, ChunkExtractorManager} from '@loadabler/server';
+
+const statsFile= path.resolve('./build/loadable-stats.json');
 
 //asset-manifest.json에서 파일경로들을 조회합니다.
 const manifest = JSON.parse(
@@ -23,7 +26,7 @@ const chunks = Object.keys(manifest.files)
   .map((key) => `<script src="${manifest.files[key]}"></script>`) //스크립트 태그로 변환하고
   .join(""); //합침
 
-function createPage(root, stateScript) {
+function createPage(root, tags) {
   return `<!DOCTYPE html>
     <html lang="en">
     <head>
@@ -35,6 +38,8 @@ function createPage(root, stateScript) {
       />
       <meta name="theme-color" content="#000000"/>
       <title>React App</title>
+      ${tags.styles}
+      ${tags.links}
       <link href="${manifest.files["main.css"]}" rel="stylesheet" />
     </head>
     <body>
@@ -42,10 +47,7 @@ function createPage(root, stateScript) {
       <div id="root">
         ${root}
       </div>
-      ${stateScript}
-      <script src="${manifest.files["runtime~main.js"]}"></script>
-      ${chunks}
-      <script src="${manifest.files["main.js"]}"></script>
+      ${tags.scripts}
     </body>
   </html>
   `;
@@ -68,7 +70,11 @@ const serverRender = (req, res, next) => {
     promises:[]
   };
 
+  //필요한 파일을 추출하기 위한 ChunkExtractor
+  const extractor = new ChunkExtractor({statsFile});
+
   const jsx=(
+    <ChunkExtractorManager extractor={extractor}>
     <PreloadContext.PRovider value={preloadContext}>
       <Provider store={store}>
         <StaticRouter location={req,url} context={context}>
@@ -76,7 +82,8 @@ const serverRender = (req, res, next) => {
         </StaticRouter>
       </Provider>
     </PreloadContext.PRovider>
-  )
+    </ChunkExtractorManager>
+  );
 
   sagaMiddleware.run(rootSaga);
   const PreloadContext = {
@@ -85,6 +92,14 @@ const serverRender = (req, res, next) => {
   };
   const root=ReactDOMServer.renderToString(jsx);//렌더링을 합니다.
   const stateString=JSON.stringify(store.getState()).replace(/</g,'\\u003c');
+
+  //미리 불러와야 하는 스타일/스크립트를 추출하고
+  const tags={
+    scripts: stateScript+extractor.getScriptTags(),//스크립트 앞 부분에 리덕스 상태 넣기
+    links: extractor.getLinkTags(),
+    styles:extractor.getStyleTags()
+  }
+
   res.send(createPage(root, stateScript));//결과물을 응답한다.
 
   ReactDOMServer.renderToStaticMarkup(jsx);//renderToStaticMarkup으로 한번 렌더링 합니다.
@@ -116,3 +131,11 @@ const html = ReactDOMServer.renderToString(
 );
 
 console.log(html);
+
+//Hook 형태로 사용할 수 있는 함수
+export const usePreloader = resolve => {
+  const preloadContext=useContext(PreloadContext);
+  if(!preloadContext) return null;
+  if(preloadContext.done) return null;
+  preloadContext.promises.push(Promise.resolve(resolve()));
+}
